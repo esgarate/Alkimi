@@ -47,3 +47,7 @@ Team1 usuario1, usuario2
 Team2  usuario3, usuario4 
 (usuarioX/contraseñaX)
 This can be managed in the page http://127.0.0.1:8000/admin/
+
+Notes:
+-	The HTML code is a little Frankestein as is my first time working  with it
+-	The permission system is not working properly
