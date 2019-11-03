@@ -15,12 +15,17 @@ Environment SETUP
 •    Start the project
   o    python manage.py runserver
 
-Description of the APP
+Description of the Project Alkimi
 
-The name of the APP is “Crud” is a system of posts where you can add, list, update and delete posts. Every Post has a Tittle and a message. 
+Tha Alkimi project has two APPS:
+  - Crud APP:
+	  Is a system of posts where you can add, list, update and delete posts. Every Post has a Tittle and a message. 
+  -	Registration APP:
+	  Django module to manage the login and logout system and user permissions. 
+
 Start page  http://127.0.0.1:8000/accounts/login/
 App page  http://127.0.0.1:8000/Crud/ 
- Once you login to the initial page it redirects you to the app page where you can do all the CRUD actions over the posts and logout. 
+ Once you login to the initial page it redirects you to the app page where you can do all the CRUD actions over the posts and logout.  
 
 Restrictions over the fields
 Both fields, Tittle and Text must be filled otherwise the action is not completed and it redirects you to the main page.
